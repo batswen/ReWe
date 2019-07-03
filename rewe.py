@@ -4,6 +4,7 @@ class Rewe:
     def __init__(self):
         self.verb = False
         self.konto = {}
+        # Konten einrichten
         for eintrag in (('EBK', 8000),
                         ('SBK', 8010),
 
@@ -30,10 +31,8 @@ class Rewe:
                         ('TAM', 700),
                         ('Eigenkapital', 3000)
                         ):
-            name,klasse = eintrag
+            name, klasse = eintrag
             self.konto[name] = {'klasse': klasse, 'soll': [], 'haben': []}
-        #print(self.konto)
-        #exit()
 
     def verbose(self,verbose):
         self.verb = verbose

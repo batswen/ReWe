@@ -1,3 +1,2 @@
-# ReWe
-[German only]
-Einfaches Programm, das auf Konten bucht und diese abschließt.
+# ReWe (German only)
+Ein einfaches Programm, das auf Konten bucht und diese abschließt.
